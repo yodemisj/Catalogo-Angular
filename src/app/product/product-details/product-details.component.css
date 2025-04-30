@@ -65,3 +65,39 @@
   width: 20px;
   height: 20px;
 }
+
+@media (max-width: 768px) {
+  .product-detail {
+    flex-direction: column; /* Empilha as informações no mobile */
+    align-items: center;
+    padding: 10px;
+  }
+
+  .product-image-container {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product-info-container {
+    max-width: 100%;
+    text-align: center; /* Centraliza as informações no mobile */
+  }
+
+  .product-image-large {
+    width: 80%; /* Ajusta o tamanho da imagem */
+    margin: 0 auto;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+  }
+
+  .product-price {
+    font-size: 1.2rem;
+  }
+
+  .buy-button {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+  }
+}

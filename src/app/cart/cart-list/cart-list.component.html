@@ -3,7 +3,7 @@
     <app-cart-item [item]="item"></app-cart-item>
   }
   @if (total() > 0) {
-    <div class="">
+    <div class="flex space-between">
       <h3>Total: <span class="price">R$ {{total()}}</span></h3>
       
       <button class="buy-button">Finalizar Compra</button>
