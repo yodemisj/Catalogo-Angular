@@ -1,0 +1,9 @@
+<section class="flex flex-wrap w100">
+@if(getProductList().length > 0) {
+    @for(product of getProductList(); track product.id) {
+        <app-product class="item" [product]="product" (selectProduct)="onProductSelected($event)"></app-product>
+    }
+} @else {
+    <p>Nenhum produto disponível.</p>
+}
+</section>

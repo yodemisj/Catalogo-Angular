@@ -1,0 +1,19 @@
+.buy-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.price {
+    color: #2e7d32;
+    font-weight: bold;
+    margin: 8px 0;
+  }

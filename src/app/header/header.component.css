@@ -1,0 +1,11 @@
+header {
+    background-color: #222;
+    color: #eee;
+    padding: 20px 20px 20px 20px;
+    font-size: 14px;
+}
+
+.no-link {
+    text-decoration: none;
+    color: white;
+}

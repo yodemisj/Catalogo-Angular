@@ -1,0 +1,17 @@
+<div class="cart-item-card">
+    <img [src]="item().image" alt="{{ item().name }}" class="cart-item-image" />
+  
+    <div class="cart-item-info">
+      <h2>{{ item().name }}</h2>
+      <p class="price">R$ {{ item().price }}</p>
+  
+      <button class="remove-button" (click)="removeFromCart(item().id)">
+        <svg class="trash-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path
+            d="M135.2 17.7C140.3 7.1 150.8 0 162.7 0h122.6c11.9 0 22.4 7.1 27.5 17.7L320 32h80c13.3 0 24 10.7 24 24s-10.7 24-24 24H48C34.7 80 24 69.3 24 56S34.7 32 48 32h80l7.2-14.3zM53.2 467c2.8 25 24 45 49.2 45h243.2c25.2 0 46.4-20 49.2-45L416 128H32l21.2 339z"
+          />
+        </svg>
+        Remover
+      </button>
+    </div>
+  </div>
